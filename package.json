@@ -1,0 +1,26 @@
+{
+  "name": "kr-app",
+  "version": "0.1.0",
+  "private": true,
+  "main": "server.js",
+  "dependencies": {
+    "@heroku/buildpack-registry": "^1.0.1",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.2",
+    "connect-pg-simple": "^7.0.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.14.0",
+    "express-winston": "^4.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "path": "^0.12.7",
+    "pg": "^8.7.3",
+    "url": "^0.11.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
